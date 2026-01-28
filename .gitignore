@@ -1,0 +1,26 @@
+# Blender
+# Ignore Blender backup files (e.g., *.blend1, *.blend2, etc.)
+*.blend[1-9]
+*.blend1
+*.blend2
+*.blend3
+
+# Ignore auto-generated files and temporary data
+/tmp/
+/render/
+/cache/
+*.pyc 
+__pycache__/
+
+# System/OS generated files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+*.swp
